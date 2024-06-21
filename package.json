@@ -1,0 +1,21 @@
+{
+  "name": "my-storybook-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token <project-token>"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^6.3.0",
+    "@storybook/addon-links": "^6.3.0",
+    "@storybook/react": "^6.3.0",
+    "chromatic": "^5.9.1"
+  }
+}
